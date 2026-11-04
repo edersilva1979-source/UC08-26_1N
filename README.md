@@ -1,4 +1,4 @@
-# UC08-26_1T
+# UC08-26_1N
 
 # ☕ Curso de Java com Swing
 
