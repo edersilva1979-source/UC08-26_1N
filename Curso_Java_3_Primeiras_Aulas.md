@@ -82,10 +82,9 @@ No programa Java tradicional que vamos executar pelo NetBeans, esse método é o
 
 ## 5. Primeiro programa: Hello World! 🌍
 
-Crie a classe `Principal` no pacote `aula01` e digite:
+Crie a classe `Principal` e digite:
 
 ```java
-package aula01;
 
 public class Principal {
 
@@ -169,9 +168,11 @@ Em seguida, exiba a última frase usando `print` e observe a diferença na saíd
 
 ---
 
+
+
+
 # 📗 Aula 2. Variáveis, tipos, operadores e métodos
 
-**Duração sugerida:** 3 horas  
 **Objetivo:** armazenar informações, realizar operações e organizar tarefas em métodos.
 
 ## 1. Relembrando a aula anterior
@@ -183,7 +184,6 @@ Antes de avançar, explique ao colega o que fazem a classe `Principal`, o métod
 Variável é um espaço identificado por um nome, utilizado para armazenar um valor que pode ser consultado ou alterado durante o programa.
 
 ```java
-package aula02;
 
 public class Principal {
 
@@ -250,7 +250,6 @@ System.out.println("Pontuação: " + pontos);
 Vamos dividir o programa em pequenas tarefas.
 
 ```java
-package aula02;
 
 public class Principal {
 
@@ -289,7 +288,6 @@ public class Principal {
 Crie um projeto `Aula02Calculadora`, pacote `aula02`, classe `Principal`:
 
 ```java
-package aula02;
 
 public class Principal {
 
@@ -339,7 +337,6 @@ public class Principal {
 
 # 📙 Aula 3. Entrada de dados com Scanner e decisões
 
-**Duração sugerida:** 3 horas  
 **Objetivo:** criar programas interativos no console, recebendo dados do usuário e utilizando decisões simples.
 
 ## 1. O que é Scanner?
@@ -365,7 +362,6 @@ Scanner entrada = new Scanner(System.in);
 Crie um projeto `Aula03Scanner`, pacote `aula03`, classe `Principal`:
 
 ```java
-package aula03;
 
 import java.util.Scanner;
 
@@ -404,7 +400,6 @@ public class Principal {
 Neste exercício, usaremos `nextDouble()` com uma configuração regional explícita para o usuário digitar valores com **vírgula** no console brasileiro.
 
 ```java
-package aula03;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -456,10 +451,9 @@ if (media >= 7.0) {
 
 ## 5. Projeto guiado final: cadastro simples de produto 🛒
 
-Crie o projeto `Aula03Produto`, pacote `aula03`, classe `Principal`. O programa deverá solicitar nome, quantidade e preço, calcular o valor total do estoque e informar se ainda existem unidades disponíveis.
+Crie o projeto `Aula03Produto`, classe `Principal`. O programa deverá solicitar nome, quantidade e preço, calcular o valor total do estoque e informar se ainda existem unidades disponíveis.
 
 ```java
-package aula03;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -542,11 +536,6 @@ Observe o desenvolvimento de cada aluno durante as atividades e utilize estes cr
 | Interação | Leitura de informações pelo `Scanner`. |
 | Autonomia | Consegue identificar e corrigir erros simples. |
 
-## Entrega no GitHub
-
-Cada aluno deverá criar um repositório chamado `java-primeiras-aulas` com três pastas: `aula01`, `aula02` e `aula03`. Em cada pasta, incluir os arquivos `.java` dos exercícios desenvolvidos. Também deverá incluir um `README.md` explicando, com suas próprias palavras, o que aprendeu em cada aula.
-
-**Orientação importante:** não envie somente arquivos compilados `.class`, nem pastas temporárias de compilação. Os arquivos `.java` são o material principal da entrega. Caso envie projetos completos do NetBeans, inclua também os arquivos necessários para que o projeto possa ser aberto em outra máquina.
 
 ## 🏁 Ao concluir
 
